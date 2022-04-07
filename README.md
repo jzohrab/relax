@@ -1,10 +1,31 @@
+# Purpose
+
 A simple relaxation prompter that periodically plays reminder messages to prompt me to relax while practicing.
 
-Usage:
+Sample phrases:
+
+* Relax your shouders
+* Release any neck tension
+* Smoothly, easily
+* Fret lightly with less energy
+
+etc.
+
+# Usage
 
 ```
-ruby main.rb
+ruby main.rb <folder> <seconds between each phrase>
 ```
+
+For example:
+
+```
+ruby main.rb mp3s 45
+```
+
+When done, just kill the program.
+
+# Notes
 
 The mp3s provided in the mp3s folder were generated from https://ttsmp3.com/ using the "US English/Salli" voice.
 
