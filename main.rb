@@ -13,7 +13,7 @@ def mp3s_in(f)
   ret
 end
 
-mp3s = mp3s_in('mp3s')
+mp3s = mp3s_in(folder)
 
 puts "Files to be played:"
 mp3s.each { |m| puts "- #{m}" }
